@@ -28,7 +28,7 @@ app.get("/", (req, res) => {
 // Socket.io server
 export const io = new Server(server, {
     cors: {
-        origin: "http://localhost:5173",
+        origin: "https://chat-app-3d2e.onrender.com",
         credentials: true,
     },
 });
