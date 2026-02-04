@@ -15,7 +15,7 @@ const server = http.createServer(app);
 app.use(express.json({ limit: "4mb" }));
 app.use(
     cors({
-        origin: "http://localhost:5173", // ✅ Vite frontend port
+        origin: "https://chat-app-backend-tz1y.onrender.com", // ✅ Vite frontend port
         credentials: true,               // ✅ allow cookies & headers
     })
 );
